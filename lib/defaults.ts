@@ -1,0 +1,38 @@
+import type { ImageSettings } from './types';
+
+export function defaultImageSettings(): ImageSettings {
+  return {
+    text: 'YOUR TEXT HERE',
+    charPreset: 'custom',
+    fillMode: 'repeat',
+    addSpaces: 0,
+    cols: 110,
+    brightness: 0,
+    contrast: 0,
+    saturation: 0,
+    gamma: 1,
+    invert: 0,
+    blur: 0,
+    sharpen: 0,
+    edge: 0,
+    posterize: 0,
+    dither: 0,
+    threshold: 30,
+    hueShift: 0,
+    tintColor: '#ff8800',
+    tintStrength: 0,
+    paletteMode: 'none',
+    duotoneEnable: false,
+    duotoneLight: '#ffdd55',
+    duotoneDark: '#001144',
+    rotation: 0,
+    flipH: false,
+    flipV: false,
+    photoColors: true,
+    textColor: '#000000',
+    animEnable: true,
+    animSpeed: 8,
+    animIntensity: 50,
+    animMode: 'wave',
+  };
+}
